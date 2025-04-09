@@ -1,0 +1,4 @@
+config AUDIO_AST_DRIVER
+	tristate "Custom AST audio driver"
+	help
+	  Enables the custom audio driver by AST

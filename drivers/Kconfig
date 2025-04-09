@@ -1,6 +1,8 @@
 # SPDX-License-Identifier: GPL-2.0
 menu "Device Drivers"
 
+source "drivers/ast_custom/Kconfig"
+
 # Keep I/O buses first
 
 source "drivers/amba/Kconfig"
@@ -246,4 +248,5 @@ source "drivers/hte/Kconfig"
 source "drivers/cdx/Kconfig"
 
 source "drivers/mxc/Kconfig"
+
 endmenu

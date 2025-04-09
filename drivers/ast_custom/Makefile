@@ -1,0 +1,1 @@
+obj-$(CONFIG_AUDIO_AST_DRIVER) += ast_driver.o
